@@ -1,69 +1,1645 @@
 # Rime dictionary
 # encoding: utf-8
 #
-# Luna Pinyin - 明月拼音
+#  BetterRime词库增强包－实用版の准正式版 by @imy0823
+#
+#
+# 部署位置：
+# ~/.config/ibus/rime  (Linux)
+# ~/Library/Rime  (Mac OS)
+# %APPDATA%\Rime  (Windows)
+#
+# 於重新部署後生效
 #
 
 ---
 name: luna_pinyin.cn_en
-version: "2021.02.21"
+version: "2016.10.29"
 sort: by_weight
 use_preset_vocabulary: true
 ...
 
-# 常见中英词汇
-哔哩哔哩	b l b l
-bilibili	b l b l
-哔哩哔哩	bilibili
-bilibili	bilibili
-DNA	d n a
-DVD	d v d
-iOS	ios
-iPad	ipad
-iPad Air	ipad
-iPad Pro	ipad
-iPhone	ip	103
-iPhone XS Max	ip
-iPhone XR	ip
-iPhone 12 Pro	ip
-ok	o k
-OK	o k
+阿Q	a q
+NFO	n f o
+NDS	n d s
+RIP	r i p
+SNK	s n k
+ABC	a b c
+POS	p o s
+ABT	a b t
+NBA	n b a
+Nan	n a n
+RIO	r i o
+N股	n gu
+N卡	n ka
+SIM	s i m
+M碼	m ma
+ACT	a c t
+M記	m ji
+RGB	r g b
+ZIP	z i p
+RAR	r a r
+AGP	a g p
+OCR	o c r
+Oct	o c t
+WEB	w e b
+OEM	o e m
+VHS	v h s
+RAM	r a m
+M幣	m bi
+MVP	m v p
+Alt	a l t
+PPT	p p t
+MTV	m t v
+AMD	a m d
+ETC	e t c
+Q仔	q zi
+MSN	m s n
+APC	a p c
+SFC	s f c
+APP	a p p
+iOS	i o s
+S級	s ji
+Mrs	m r s
+EVA	e v a
+EVD	e v d
+ASP	a s p
+ATM	a t m
+SEO	s e o
+SOS	s o s
+SDR	s d r
+AVG	a v g
+AVI	a v i
+SQL	s q l
+Q我	q wo
+OMG	o m g
+ONS	o n s
+SCI	s c i
+MIT	m i t
+Evo	e v o
+EXE	e x e
+OST	o s t
+A股	a gu
+SUV	s u v
+S股	s gu
+OTC	o t c
+A級	a ji
+OTG	o t g
+O記	o ji
+R級	r ji
+A卡	a ka
+RTA	r t a
+WHO	w h o
+RPG	r p g
+A米	a mi
+PDA	p d a
+PDF	p d f
+ROM	r o m
+PHP	p h p
+Wii	w i i
+A區	a qu
+E區	e qu
+WIN	w i n
+PSP	p s p
+S碼	s ma
+Mia	m i a
+PSV	p s v
+A組	a zu
+IME	i m e
+MBA	m b a
+BBC	b b c
+FAQ	f a q
+P大	p da
+TCL	t c l
+L碼	l ma
+LTE	l t e
+BIO	b i o
+WMA	w m a
+Ltd	l t d
+THX	t h x
+BMW	b m w
+BTW	b t w
+RMB	r m b
+LOL	l o l
+BUG	b u g
 Q幣	q bi
-QQ號	q q hao
-QQ號碼	q q haoma
-QQ會員	q q huiyuan
-QQ空間	q q kongjian
-QQ羣	q q qun
-QQ郵箱	q q youxiang
+TLF	t l f
+TMD	t m d
+ZTE	z t e
+GPS	g p s
+IDE	i d e
+B哥	b ge
+B股	b gu
+TVB	t v b
+B級	b ji
+WPS	w p s
+IBM	i b m
+B區	b qu
+Les	l e s
+FPE	f p e
+TXT	t x t
+FPS	f p s
+B族	b zu
+T大	t da
+B組	b zu
+CAD	c a d
+T區	t qu
+LCD	l c d
+CBA	c b a
+CBD	c b d
+GDP	g d p
+FTP	f t p
+WTO	w t o
+LBS	l b s
+F碼	f ma
+CEO	c e o
 T恤	t xu
-
-# 地区
-🇭🇰	h k	10002
-HK	h k	10001
-Hong Kong	h k	10000
-
-# 常见符号
-°	du	10000
-℃	she shi du
-℉	hua shi du
-♂	nan	10000
-♀	nv	10000
-↑	shang	10000
-↓	xia	10000
-→	you	10000
-↗	you shang	10000
-↘	you xia	10000
-←	zuo	10000
-↖	zuo shang	10000
-↙	zuo xia	10000
-★	xing	10000
-①	yi	10000
-②	er	10000
-③	san	10000
-④	si	10000
-⑤	wu	10000
-⑥	liu	10000
-⑦	qi	10000
-⑧	ba	10000
-⑨	jiu	10000
-⑩	shi	10000
+F區	f qu
+CGI	c g i
+UBI	u b i
+GSM	g s m
+H股	h gu
+UFO	u f o
+CND	c n d
+K歌	k ge
+UGG	u g g
+KTV	k t v
+KOF	k o f
+CPA	c p a
+CPU	c p u
+CRT	c r t
+GBA	g b a
+GBK	g b k
+CTO	c t o
+URL	u r l
+KFC	k f c
+USA	u s a
+USB	u s b
+GIF	g i f
+C級	c ji
+C區	c qu
+GTR	g t r
+P圖	p tu
+JSP	j s p
+JPG	j p g
+C組	c zu
+USD	u s d
+DDR	d d r
+DHL	d h l
+U幣	u bi
+Q吧	q ba
+DIY	d i y
+HIV	h i v
+DNS	d n s
+G幣	g bi
+DOS	d o s
+Ive	i v e
+齊B	qi b
+DPS	d p s
+DTS	d t s
+VCD	v c d
+VGA	v g a
+DVD	d v d
+QAQ	q a q
+VGS	v g s
+ISP	i s p
+DVI	d v i
+Yee	y e e
+Yui	y u i
+ISO	i s o
+D區	d qu
+VIP	v i p
+D組	d zu
+VOA	v o a
+VOD	v o d
+大S	da s
+EHQ	e h q
+VPN	v p n
+HTC	h t c
+NGC	n g c
+NGO	n g o
+SLG	s l g
+NMD	n m d
+NOD	n o d
+NPC	n p c
+N個	n ge
+AC3	a c 
+操B	cao b
+M值	m zhi
+阿Sa	a s a
+被T	bei t
+M號	m hao
+Q友	q you
+MP3	m p 
+Q信	q xin
+A班	a ban
+A版	a ban
+A杯	a bei
+Q版	q ban
+A貨	a huo
+S號	s hao
+G友	g you
+A君	a jun
+A口	a kou
+A類	a lei
+老K	lao k
+A盤	a pan
+Q秀	q xiu
+E盤	e pan
+C盤	c pan
+P事	p shi
+D版	d ban
+D杯	d bei
+牛B	niu b
+B類	b lei
+C肽	c zuo
+D口	d kou
+D盤	d pan
+T臺	t tai
+加Q	jia q
+牛A	niu a
+維C	wei c
+F盤	f pan
+D座	d zuo
+好Q	hao q
+維B	wei b
+C座	c zuo
+很Q	hen q
+甲B	jia b
+掛Q	gua q
+E座	e zuo
+B座	b zuo
+Q號	q hao
+H版	h ban
+加v	jia v
+傻X	sha x
+T人	t ren
+B杯	b bei
+U盾	u dun
+N倍	n bei
+N多	n duo
+傻B	sha b
+維a	wei a
+N家	n jia
+騷B	sao b
+羣P	qun p
+E文	e wen
+B口	b kou
+U盤	u pan
+B版	b ban
+Q羣	q qun
+OK啊	o k a
+B班	b ban
+Y蛋	y dan
+OK哦	o k o
+P民	p min
+C班	c ban
+C杯	c bei
+A座	a zuo
+L號	l hao
+P話	p hua
+P過	p guo
+K金	k jin
+維E	wei e
+QQ啊	q q a
+C口	c kou
+PS2	p s 
+C類	c lei
+C樓	c lou
+C羅	c luo
+甲A	jia a
+牛X	niu x
+B款	b kuan
+小Q	xiao q
+B型	b xing
+小K	xiao k
+小C	xiao c
+Cbox	c b o x
+CCED	c c e d
+我TM	wo t m
+CDMA	c d m a
+CD機	c d ji
+我QQ	wo q q
+CFPL	c f p l
+CF卡	c f ka
+我OK	wo o k
+CHOK	c h o k
+CMCC	c m c c
+CMOS	c m o s
+CNTV	c n t v
+CSOL	c s o l
+她QQ	ta q q
+他QQ	ta q q
+Ctrl	c t r l
+C調	c diao
+C棟	c dong
+C網	c wang
+C型	c xing
+DMAX	d m a x
+Doin	d o i n
+DOMO	d o m o
+Doov	d o o v
+DOWN	d o w n
+D調	d diao
+D棟	d dong
+eBay	e b a y
+Elly	e l l y
+你TM	ni t m
+你QQ	ni q q
+你OK	ni o k
+ESPN	e s p n
+Ezra	e z r a
+FIFA	f i f a
+FILA	f i l a
+QQ幣	q q bi
+F團	f tuan
+F型	f xing
+發QQ	fa q q
+發pp	fa p p
+短T	duan t
+都OK	du o k
+大pp	da p p
+Gozo	g o z o
+打pp	da p p
+打CS	da c s
+此ID	ci i d
+超Q	chao q
+GPRS	g p r s
+G點	g dian
+G團	g tuan
+不OK	bu o k
+Haru	h a r u
+HDMI	h d m i
+HDTV	h d t v
+TiMi	t i m i
+HIFI	h i f i
+HITA	h i t a
+Zelo	z e l o
+Y軸	y zhou
+YULI	y u l i
+Yuki	y u k i
+X軸	x zhou
+X線	x xian
+XXOO	x x o o
+XBOX	x b o x
+HTML	h t m l
+Xbox	x b o x
+Hulu	h u l u
+WWDC	w w d c
+ICBC	i c b c
+WORD	w o r d
+IC卡	i c ka
+ID卡	i d ka
+IEEE	i e e e
+Ikan	i k a n
+IKEA	i k e a
+Ikki	i k k i
+iMac	i m a c
+IMAX	i m a x
+WLAN	w l a n
+IMEI	i m e i
+IMSI	i m s i
+WiFi	w i f i
+WE吧	w e ba
+iPad	i p a d
+V型	v xing
+V領	v ling
+VVIP	v v i p
+iPod	i p o d
+IPSA	i p s a
+IPTV	i p t v
+VOTO	v o t o
+VIXX	v i x x
+IP卡	i p ka
+Vics	v i c s
+ISDN	i s d n
+iSee	i s e e
+VDSL	v d s l
+IT業	i t ye
+U型	u xing
+QZZN	q z z n
+QVOD	q v o d
+Jizz	j i z z
+JOJO	j o j o
+Kary	k a r y
+Kass	k a s s
+Kbps	k b p s
+Kenn	k e n n
+Kian	k i a n
+Kimi	k i m i
+Koei	k o e i
+KOEI	k o e i
+Kone	k o n e
+Kuma	k u m a
+KUSO	k u s o
+Uber	u b e r
+K線	k xian
+LaLa	l a l a
+T型	t xing
+Letv	l e t v
+Lexi	l e x i
+Limi	l i m i
+TOUS	t o u s
+TOTO	t o t o
+TODO	t o d o
+LOGO	l o g o
+TF卡	t f ka
+Luka	l u k a
+TERA	t e r a
+Maya	m a y a
+Tata	t a t a
+MAYU	m a y u
+S型	s xing
+MERS	m e r s
+S鍵	s jian
+Mido	m i d o
+MiGo	m i g o
+Miki	m i k i
+Mima	m i m a
+SVCD	s v c d
+SUKI	s u k i
+MIUI	m i u i
+ST股	s t gu
+Mixx	m i x x
+Miya	m i y a
+SRPG	s r p g
+MOKA	m o k a
+Soso	s o s o
+Mook	m o o k
+SONY	s o n y
+MPEG	m p e g
+MSDN	m s d n
+Sony	s o n y
+MUJI	m u j i
+Sohu	s o h u
+Nano	n a n o
+Nars	n a r s
+SOGO	s o g o
+Soga	s o g a
+SoDu	s o d u
+Acer	a c e r
+ADSL	a d s l
+SM卡	s m ka
+AIDS	a i d s
+Niko	n i k o
+AIIB	a i i b
+AIYA	a i y a
+Alam	a l a m
+NTFS	n t f s
+PPTV	p p t v
+N遍	n bian
+Siri	s i r i
+APEC	a p e c
+Apps	a p p s
+ARPG	a r p g
+ASOS	a s o s
+A等	a deng
+N年	n nian
+A點	a dian
+A棟	a dong
+OAOA	o a o a
+A段	a duan
+A卷	a juan
+A款	a kuan
+QQ裏	q q li
+A面	a mian
+A片	a pian
+OK吧	o k ba
+OK的	o k de
+OK啦	o k la
+A屏	a ping
+A線	a xian
+SEGA	s e g a
+OK嗎	o k ma
+OK嘛	o k ma
+OK麼	o k me
+A型	a xing
+OK呀	o k ya
+SD卡	s d ka
+BADA	b a d a
+Etam	e t a m
+BAKA	b a k a
+Baru	b a r u
+OPPO	o p p o
+PU皮	p u pi
+SAYA	s a y a
+SaSa	s a s a
+SARS	s a r s
+Bbox	b b o x
+BB機	b b ji
+Q點	q dian
+SANA	s a n a
+BIOS	b i o s
+O型	o xing
+Buka	b u k a
+RWBY	r w b y
+RURU	r u r u
+P2P	p 2p
+Pabo	p a b o
+B超	b chao
+小Y	xiao y
+QQ卡	q q ka
+Pchy	p c h y
+PC機	p c ji
+小S	xiao s
+RoRo	r o r o
+B點	b dian
+B棟	b dong
+PE膜	p e mo
+B鍵	b jian
+B卷	b juan
+PIKO	p i k o
+Roem	r o e m
+PLMM	p l m m
+RMVB	r m v b
+NICI	n i c i
+最IN	zui i n
+DJ版	d j ban
+AV國	a v guo
+加QQ	jia q q
+Hi好	h i hao
+要QQ	yao q q
+MM好	m m hao
+MM們	m m men
+D證	d zheng
+掛QQ	gua q q
+ID號	i d hao
+上Q	shang q
+JM們	j m men
+很OK	hen o k
+有QQ	you q q
+沒QQ	mei q q
+QQ羣	q q qun
+在QQ	zai q q
+是OK	shi o k
+QQ秀	q q xiu
+Q寵	q chong
+只OK	zhi o k
+LV包	l v bao
+阿Q	a q
+帥T	shuai t
+玩CF	wan c f
+PP粉	p p fen
+PP島	p p dao
+QQ	q q
+阿sir	a s i r
+就OK	jiu o k
+貼pp	tie p p
+哦lol	o l o l
+X光	x guang
+玩CS	wan c s
+拍MV	pai m v
+玩QQ	wan q q
+長T	chang t
+AK47	a k 4
+看QQ	kan q q
+A證	a zheng
+Q上	q shang
+來PK	lai p k
+PC版	p c ban
+TV版	t v ban
+Q傳	q chuan
+唱K	chang k
+pH值	p h zhi
+PK版	p k ban
+A和B	a he b
+QQ號	q q hao
+PK賽	p k sai
+泡MM	pao m m
+IT界	i t jie
+AA制	a a zhi
+新QQ	xin q q
+PN結	p n jie
+下QQ	xia q q
+窮B	qiong b
+Linux	l i n u x
+LINUX	l i n u x
+TOPIK	t o p i k
+LMFAO	l m f a o
+Tmall	t m a l l
+聊QQ	liao q q
+but你	b u t ni
+用PS	yong p s
+用QQ	yong q q
+TimeZ	t i m e z
+TiAmo	t i a m o
+真TM	zhen t m
+Etude	e t u d e
+Lumia	l u m i a
+你lol	ni l o l
+裝B	zhuang b
+Tenda	t e n d a
+Tegra	t e g r a
+Mandy	m a n d y
+BEELY	b e e l y
+Zakka	z a k k a
+ZAKER	z a k e r
+幫LZ	bang l z
+QQ名	q q ming
+Badoo	b a d o o
+MBLAQ	m b l a q
+Tablo	t a b l o
+你TMD	ni t m d
+Messi	m e s s i
+EMAIL	e m a i l
+PRICH	p r i c h
+Prezi	p r e z i
+封ID	feng i d
+gay蜜	g a y mi
+封IP	feng i p
+Elina	e l i n a
+Minoz	m i n o z
+H股	h gu
+A股	a gu
+Easou	e a s o u
+Prada	p r a d a
+Eason	e a s o n
+Q幣	q bi
+VIP卡	v i p ka
+Furla	f u r l a
+AV線	a v xian
+MMC卡	m m c ka
+Avril	a v r i l
+SPA機	s p a ji
+Viber	v i b e r
+ATM機	a t m ji
+PP棉	p p mian
+換IP	huan i p
+ASCII	a s c i i
+ANSYS	a n s y s
+DVD機	d v d ji
+Amani	a m a n i
+Alisa	a l i s a
+MySQL	m y s q l
+Alina	a l i n a
+POS機	p o s ji
+ACOME	a c o m e
+AcFun	a c f u n
+AB型	a b xing
+胖MM	pang m m
+NAVER	n a v e r
+AB膠	a b jiao
+Sogou	s o g o u
+DUEBA	d u e b a
+AAA級	a a a ji
+Neway	n e w a y
+CUCCI	c u c c i
+YONEX	y o n e x
+Diors	d i o r s
+Shift	s h i f t
+Cuban	c u b a n
+刷QQ	shua q q
+iFile	i f i l e
+Holle	h o l l e
+Shero	s h e r o
+OK鏡	o k jing
+換QQ	huan q q
+OK了	o k liao
+Kimmy	k i m m y
+Ulike	u l i k e
+等QQ	deng q q
+Nokia	n o k i a
+提bug	ti b u g
+Ukiss	u k i s s
+QQ聊	q q liao
+Konka	k o n k a
+Dicos	d i c o s
+Baidu	b a i d u
+Zynga	z y n g a
+UV鏡	u v jing
+ooooO	o o o o o
+Ooooo	o o o o o
+QQ堂	q q tang
+Q幣卡	q bi ka
+Cydia	c y d i a
+K歌	k ge
+CMWAP	c m w a p
+UCDOS	u c d o s
+CMNET	c m n e t
+Choco	c h o c o
+我lol	wo l o l
+SANYO	s a n y o
+Sanyo	s a n y o
+QQ說	q q shuo
+Gucci	g u c c i
+去KTV	qu k t v
+Sammi	s a m m i
+T恤	t xu
+CF點	c f dian
+第N次	di n ci
+SIM卡	s i m ka
+我OUT	wo o u t
+CDKEY	c d k e y
+Casio	c a s i o
+Intel	i n t e l
+小DD	xiao d d
+登QQ	deng q q
+PC端	p c duan
+小JJ	xiao j j
+小MM	xiao m m
+Lenka	l e n k a
+Skype	s k y p e
+小pp	xiao p p
+PE管	p e guan
+刷QB	shua q b
+發EMS	fa e m s
+TVout	t v o u t
+你OUT	ni o u t
+B股	b gu
+PIN碼	p i n ma
+Pixiv	p i x i v
+JUSCO	j u s c o
+Zippo	z i p p o
+USANA	u s a n a
+Lilin	l i l i n
+ID照	i d zhao
+PLORY	p l o r y
+FESCO	f e s c o
+Gmail	g m a i l
+李sir	li s i r
+u模式	u mo shi
+U盤	u pan
+U盤裏	u pan li
+v模式	v mo shi
+WAN口	w a n kou
+X刀	x dao
+白T恤	bai t xu
+出bug	chu b u g
+傳pp	chuan p p
+改bug	gai b u g
+好lol	hao l o l
+好low	hao l o w
+好man	hao m a n
+很man	hen m a n
+加我Q	jia wo q
+來lol	lai l o l
+劉sir	liu s i r
+哦shit	o s h i t
+A計劃	a ji hua
+A盤	a pan
+上QQ	shang q q
+上YY	shang y y
+帥GG	shuai g g
+A字裙	a zi qun
+玩DNF	wan d n f
+玩LOL	wan l o l
+嚇cry	xia c r y
+修bug	xiu b u g
+在KTV	zai k t v
+做PPT	zuo p p t
+B級車	b ji che
+B盤	b pan
+C盤	c pan
+C語言	c yu yan
+DVD版	d v d ban
+D盤	d pan
+EXO飯	e x o fan
+E盤	e pan
+FAT16	f a t 1
+FAT32	f a t 3
+F盤	f pan
+G盤	g pan
+H盤	h pan
+H遊戲	h you xi
+iOS	i o s
+i美股	i mei gu
+i模式	i mo shi
+I盤	i pan
+J盤	j pan
+K粉	k fen
+K金	k jin
+low貨	l o w huo
+May姐	m a y jie
+nice啊	n i c e a
+OEM版	o e m ban
+PCB板	p c b ban
+PK場	p k chang
+3Dmax	3d m a x
+QQ上	q q shang
+Q拍樂	q pai le
+USB口	u s b kou
+U盾	u dun
+MOS管	m o s guan
+Xoxoxo	x o x o x o
+iTunes	i t u n e s
+iTouch	i t o u c h
+Adidas	a d i d a s
+LOFTER	l o f t e r
+USB線	u s b xian
+Amanat	a m a n a t
+企業QQ	qi ye q q
+TomBoy	t o m b o y
+e卡通	e ka tong
+HTCOne	h t c o n e
+ARASHI	a r a s h i
+Armani	a r m a n i
+Xperia	x p e r i a
+dota吧	d o t a ba
+打kiss	da k i s s
+A出口	a chu kou
+A片	a pian
+E路航	e lu hang
+E時代	e shi dai
+客服QQ	ke fu q q
+客服MM	ke fu m m
+Hitomi	h i t o m i
+BB霜	b b shuang
+E世界	e shi jie
+BeDook	b e d o o k
+Lenovo	l e n o v o
+DVD	d v d
+擠我QQ	ji wo q q
+D大調	d da diao
+QQ皮膚	q q pi fu
+E郵寶	e you bao
+Typany	t y p a n y
+iPhone	i p h o n e
+你的QQ	ni de q q
+LED屏	l e d ping
+LED燈	l e d deng
+Lavida	l a v i d a
+T臺秀	t tai xiu
+Eminem	e m i n e m
+VMware	v m w a r e
+QQ客服	q q ke fu
+QQ業務	q q ye wu
+QQ密碼	q q mi ma
+Sophia	s o p h i a
+K線圖	k xian tu
+T恤衫	t xu shan
+你high	ni h i g h
+VOBSUB	v o b s u b
+你call	ni c a l l
+K歌王	k ge wang
+卡拉OK	ka la o k
+那個QQ	na ge q q
+X檔案	x dang an
+K歌	k ge
+iWatch	i w a t c h
+QQGame	q q g a m e
+KONAMI	k o n a m i
+PVC管	p v c guan
+UNIQLO	u n i q l o
+high歌	h i g h ge
+Keroro	k e r o r o
+Kazaky	k a z a k y
+Viscap	v i s c a p
+USB	u s b
+JUNIEL	j u n i e l
+fx組合	f x zu he
+V字領	v zi ling
+Rainie	r a i n i e
+V字形	v zi xing
+Warkey	w a r k e y
+WeChat	w e c h a t
+GATSBY	g a t s b y
+Rime	r i m e
+gay片	g a y pian
+發我QQ	fa wo q q
+發你QQ	fa ni q q
+Poppin	p o p p i n
+Google	g o o g l e
+大V領	da v ling
+GOSICK	g o s i c k
+Gougou	g o u g o u
+大boss	da b o s s
+大baby	da b a b y
+WiFi卡	w i f i ka
+打game	da g a m e
+out了	o u t liao
+打dota	da d o t a
+打boss	da b o s s
+最牛B	zui niu b
+自high	zi h i g h
+Bieber	b i e b e r
+真TMD	zhen t m d
+Omegle	o m e g l e
+SD娃娃	s d wa wa
+OK的啦	o k de la
+OFFICE	o f f i c e
+G點	g dian
+SHINee	s h i n e e
+不high	bu h i g h
+N多人	n duo ren
+n次方	n ci fang
+SISTAR	s i s t a r
+blue的	b l u e de
+不care	bu c a r e
+B超	b chao
+B出口	b chu kou
+Snidel	s n i d e l
+call我	c a l l wo
+CAPCOM	c a p c o m
+午夜DJ	wu ye d j
+我都OK	wo du o k
+我的QQ	wo de q q
+CC霜	c c shuang
+CELINE	c e l i n e
+ChaCha	c h a c h a
+Hellen	h e l l e n
+Spyair	s p y a i r
+MOLANG	m o l a n g
+iCloud	i c l o u d
+CNBlue	c n b l u e
+Stephy	s t e p h y
+Stussy	s t u s s y
+Missha	m i s s h a
+Misaki	m i s a k i
+Sweety	s w e e t y
+他的QQ	ta de q q
+把我QQ	ba wo q q
+S曲線	s qu xian
+iBooks	i b o o k s
+刷Q幣	shua q bi
+Taobao	t a o b a o
+Yumiko	y u m i k o
+MATLAB	m a t l a b
+DJ舞曲	d j wu qu
+Telnet	t e l n e t
+把他QQ	ba ta q q
+HUAWEI	h u a w e i
+DNA	d n a
+日K線	ri k xian
+lol了	l o l liao
+PK一下	p k yi xia
+D罩杯	d zhao bei
+你在QQ	ni zai q q
+你QQ號	ni q q hao
+PC遊戲	p c you xi
+QQ羣裏	q q qun li
+T型臺	t xing tai
+K金	k jin
+O型血	o xing xue
+O型腿	o xing tui
+打開QQ	da kai q q
+嘿girl	hei g i r l
+那就OK	na jiu o k
+K粉	k fen
+魅族MX	zuo zu m x
+沒WiFi	mei w i f i
+沒root	mei r o o t
+做B超	zuo b chao
+沒feel	mei f e e l
+龍珠Z	long zhu z
+諮詢QQ	zi xun q q
+荔枝FM	li zhi f m
+QQ西遊	q q xi you
+hold姐	h o l d jie
+SD敢達	s d gan da
+這個QQ	zhe ge q q
+QQ信息	q q xin xi
+吹牛B	chui niu b
+出core	chu c o r e
+充Q幣	chong q bi
+hold住	h o l d zhu
+X光	x guang
+開WiFi	kai w i f i
+QQ炫舞	q q zuo wu
+G硬盤	g ying pan
+QQ音速	q q yin su
+這個ID	zhe ge i d
+QQ音樂	q q yin le
+有WiFi	you w i f i
+X光機	x guang ji
+IT技術	i t ji shu
+high好	h i g h hao
+有feel	you f e e l
+QQ閱讀	q q yue du
+hi靚女	h i zuo nv
+B超單	b chao dan
+IQ博士	i q bo shi
+小P孩	xiao p hai
+B型血	b xing xue
+B罩杯	b zhao bei
+開BOSS	kai b o s s
+QQ直播	q q zhi bo
+QQ主題	q q zhu ti
+IP卡	i p ka
+我在QQ	wo zai q q
+我下QQ	wo xia q q
+X射線	x she xian
+笨nana	ben n a n a
+就OK啦	jiu o k la
+VI設計	v i she ji
+QQ分組	q q fen zu
+sorry啊	s o r r y a
+hi美女	h i mei nv
+加我QQ	jia wo q q
+加你QQ	jia ni q q
+Hi妹子	h i mei zi
+維A酸	wei a suan
+QQ部落	q q bu luo
+擺pose	bai p o s e
+百度Hi	bai du h i
+IP地址	i p di zhi
+很nice	hen n i c e
+iPod	i p o d
+很high	hen h i g h
+CoCo姐	c o c o jie
+PP租車	p p zu che
+QQ遊戲	q q you xi
+玩high	wan h i g h
+玩game	wan g a m e
+玩dota	wan d o t a
+好high	hao h i g h
+求solo	qiu s o l o
+AC米蘭	a c mi lan
+偷WiFi	tou w i f i
+太high	tai h i g h
+Lisa姐	l i s a jie
+隨E行	sui e xing
+APEC藍	a p e c lan
+QQ號碼	q q hao ma
+AV女優	a v nv you
+iPad	i p a d
+各位MM	ge wei m m
+A型血	a xing xue
+A罩杯	a zhao bei
+C罩杯	c zhao bei
+奇瑞QQ	qi rui q q
+Lily姐	l i l y jie
+YY語音	y y yu yin
+Hi在嗎	h i zai ma
+TF家族	t f jia zu
+LEEP刀	l e e p dao
+三K黨	san k dang
+短袖T	duan xiu t
+WiFi	w i f i
+Hello哦	h e l l o o
+lol盒子	l o l he zi
+loli控	l o l i kong
+AD鈣奶	a d gai nai
+Linux	l i n u x
+Topshop	t o p s h o p
+Liekkas	l i e k k a s
+LG手機	l g shou ji
+UC迅雷	u c xun lei
+AUTOCAD	a u t o c a d
+QQ好友	q q hao you
+Bambook	b a m b o o k
+Bazinga	b a z i n g a
+QQ號	q q hao
+QQ飛車	q q fei che
+U型管	u xing guan
+IT行業	i t xing ye
+IT公司	i t gong si
+QQ拼音	q q pin yin
+Islamic	i s l a m i c
+iReader	i r e a d e r
+VIP客戶	v i p ke hu
+QQ情侶	q q qing lv
+Windows	w i n d o w s
+WINDOWS	w i n d o w s
+QQ羣	q q qun
+H型鋼	h xing gang
+QQ羣號	q q qun hao
+XP系統	x p xi tong
+Hotwind	h o t w i n d
+QQ三國	q q san guo
+QQ閃圖	q q shan tu
+QQ華夏	q q hua xia
+Hotmail	h o t m a i l
+X戰警	x zhan jing
+QQ手機	q q shou ji
+Home鍵	h o m e jian
+YouTube	y o u t u b e
+YY頻道	y y pin dao
+high了	h i g h liao
+QQ等級	q q deng ji
+QQ提醒	q q ti xing
+不登QQ	bu deng q q
+不聊QQ	bu liao q q
+蹭WiFi	ceng w i f i
+長袖T	chang xiu t
+超級QQ	chao ji q q
+QQ圖標	q q tu biao
+QQ圖片	q q tu pian
+臭baby	chou b a b y
+Go下載	g o xia zai
+登錄QQ	deng lu q q
+登你QQ	deng ni q q
+登我QQ	deng wo q q
+QQ微信	q q wei xin
+等我QQ	deng wo q q
+QQ下載	q q xia zai
+豆瓣FM	dou ban f m
+GoAgent	g o a g e n t
+嗯嗯OK	zuo zuo o k
+QQ消息	q q xiao xi
+果味VC	guo wei v c
+Foxmail	f o x m a i l
+Foxconn	f o x c o n n
+QQ旋舞	q q xuan wu
+很多MM	hen duo m m
+華數TV	hua shu t v
+加QQ號	jia q q hao
+QQ用戶	q q yong hu
+加QQ羣	jia q q qun
+酷我K歌	ku wo k ge
+連WiFi	lian w i f i
+QQ御劍	q q yu jian
+聯繫QQ	lian xi q q
+萌小Q	meng xiao q
+奶茶MM	nai cha m m
+Enemies	e n e m i e s
+你用QQ	ni yong q q
+AA制	a a zhi
+Dropbox	d r o p b o x
+DirectX	d i r e c t x
+Davichi	d a v i c h i
+QQ登錄	q q deng lu
+深V領	shen v ling
+手機QQ	shou ji q q
+刷QQ幣	shua q q bi
+QQ聯繫	q q lian xi
+Ctrl鍵	c t r l jian
+挺high	ting h i g h
+Coolpad	c o o l p a d
+QQ鬥牛	q q dou niu
+QQ聊吧	q q liao ba
+網頁QQ	wang ye q q
+Clannad	c l a n n a d
+ChoiSin	c h o i s i n
+我叫MT	wo jiao m t
+我用QQ	wo yong q q
+小baby	xiao b a b y
+小BOSS	xiao b o s s
+Camille	c a m i l l e
+小case	xiao c a s e
+小loli	xiao l o l i
+謝謝LZ	xie xie l z
+新版QQ	xin ban q q
+Rihanna	r i h a n n a
+移動QQ	yi dong q q
+BT下載	b t xia zai
+Popstar	p o p s t a r
+用WiFi	yong w i f i
+POLO衫	p o l o shan
+BJD娃娃	b j d wa wa
+root了	r o o t liao
+在唱K	zai chang k
+照B超	zhao b chao
+真high	zhen h i g h
+Bigbang	b i g b a n g
+O型圈	o xing quan
+O型環	o xing huan
+Samsung	s a m s u n g
+over了	o v e r liao
+OUTLETS	o u t l e t s
+周K線	zhou k xian
+OK了嗎	o k liao ma
+OK了啦	o k liao la
+OK了吧	o k liao ba
+Shimano	s h i m a n o
+N年前	n nian qian
+SimSimi	s i m s i m i
+Skyfall	s k y f a l l
+Soledad	s o l e d a d
+sorry啦	s o r r y la
+Monstar	m o n s t a r
+Sparkey	s p a r k e y
+Moncler	m o n c l e r
+SpeXial	s p e x i a l
+SQL語句	s q l yu ju
+Micheal	m i c h e a l
+Mc白浩	m c bai hao
+Maybank	m a y b a n k
+MacBook	m a c b o o k
+LV包包	l v bao bao
+QQ硬盤	q q ying pan
+AB型血	a b xing xue
+X染色體	x ran se ti
+I服了U	i fu liao u
+C語言	c yu yan
+X光片	x guang pian
+B細胞	b xi bao
+QQ彩票	q q cai piao
+TV動畫	t v dong hua
+QQ相冊	q q xiang ce
+QQ校友	q q xiao you
+QQ牧場	q q mu chang
+沒登QQ	mei deng q q
+就OK了	jiu o k liao
+PP助手	p p zhu shou
+好happy	hao h a p p y
+MAC地址	m a c di zhi
+CT檢查	c t jian cha
+QQ影音	q q ying yin
+γ刀	a dao
+LOGO牆	l o g o qiang
+QQ多少	q q duo shao
+QQ寵物	q q chong wu
+QQ升級	q q sheng ji
+上我QQ	shang wo q q
+請加QQ	qing jia q q
+QQ水滸	q q shui zuo
+上你QQ	shang ni q q
+很happy	hen h a p p y
+T細胞	t xi bao
+你上QQ	ni shang q q
+QQ管家	q q guan jia
+QQ在線	q q zai xian
+QQ網購	q q wang gou
+QQ餐廳	q q can ting
+真人CS	zhen ren c s
+越野e族	yue ye e zu
+BT種子	b t zhong zi
+一上QQ	yi shang q q
+PC套件	p c tao jian
+NBA直播	n b a zhi bo
+不上QQ	bu shang q q
+QQ會員	q q hui yuan
+GO鎖屏	g o suo ping
+我在KTV	wo zai k t v
+我要Q幣	wo yao q bi
+GO短信	g o duan xin
+我上QQ	wo shang q q
+騰訊QQ	teng xun q q
+大衆CC	da zhong c c
+鄙視ing	bi shi i n g
+Y染色體	y ran se ti
+通過QQ	tong guo q q
+芒果TV	mang guo t v
+WiFi	w i f i
+IP電話	i p dian hua
+雙酚A	shuang fen a
+白色T恤	bai se t xu
+QQ家園	q q jia yuan
+K歌達人	k ge da ren
+EMS快遞	e m s kuai di
+QQ帳號	q q zhang hao
+HTC手機	h t c shou ji
+FLASHFXP	f l a s h f x p
+沒上QQ	mei shang q q
+Belieber	b e l i e b e r
+QQ表情	q q biao qing
+LALABOBO	l a l a b o b o
+PS模擬器	p s mo ni qi
+Scofield	s c o f i e l d
+YY小說	y y xiao shuo
+txt下載	t x t xia zai
+SIM卡	s i m ka
+PPTV聚力	p p t v ju li
+Kimi媽媽	k i m i ma ma
+GO桌面	g o zhuo mian
+在QQ上	zai q q shang
+Alemania	a l e m a n i a
+SKINFOOD	s k i n f o o d
+Skrillex	s k r i l l e x
+AppStore	a p p s t o r e
+POS機	p o s ji
+RMB玩家	r m b wan jia
+印花T恤	yin hua t xu
+ATM機	a t m ji
+TCL集團	t c l ji tuan
+學生MM	xue sheng m m
+信使RNA	xin shi r n a
+Olympics	o l y m p i c s
+Nichkhun	n i c h k h u n
+Hongkong	h o n g k o n g
+FTIsland	f t i s l a n d
+關聯QQ	guan lian q q
+QQ名片	q q ming pian
+VOCALOID	v o c a l o i d
+QQ聊天	q q liao tian
+HOPE組合	h o p e zu he
+WiFi密碼	w i f i mi ma
+申請QQ	shen qing q q
+NBA新聞	n b a xin wen
+QQ簽名	q q qian ming
+iPad迷你	i p a d mi ni
+就上QQ	jiu shang q q
+LadyGaga	l a d y g a g a
+QQ軟件	q q ruan jian
+sorry了	s o r r y liao
+ChinaNet	c h i n a n e t
+QQ申請	q q shen qing
+Chinaren	c h i n a r e n
+你OUT了	ni o u t liao
+QQ刷鑽	q q shua zuan
+QQ頭像	q q tou xiang
+ThinkPad	t h i n k p a d
+iMessage	i m e s s a g e
+T恤衫	t xu shan
+Karicare	k a r i c a r e
+SM小說	s m xiao shuo
+頭文字D	tou wen zi d
+QQ網名	q q wang ming
+lol視頻	l o l shi pin
+Google	g o o g l e
+東方CJ	dong fang c j
+天仙MM	tian xian m m
+FaceTime	f a c e t i m e
+情侶T恤	qing lv t xu
+QQ五子棋	q q wu zi qi
+Facebook	f a c e b o o k
+USB接口	u s b jie kou
+Michelle	m i c h e l l e
+水木BBS	shui mu b b s
+魔笛MAGI	mo di m a g i
+QQ仙靈	q q xian ling
+人均GDP	ren jun g d p
+McDonald	m c d o n a l d
+DNF外掛	d n f wai gua
+WhatsApp	w h a t s a p p
+Internet	i n t e r n e t
+Westlife	w e s t l i f e
+服了you	fu liao y o u
+QQ旋風	q q xuan feng
+QQ郵箱	q q you xiang
+QQ空間	q q kong jian
+三K黨	san k dang
+QQ幻想	q q huan xiang
+baby老婆	b a b y lao po
+手機U盤	shou ji u pan
+MIC男團	m i c nan tuan
+QQ農場	q q nong chang
+天籟K歌	tian zuo k ge
+萬物high	wan wu h i g h
+DVD光驅	d v d guang qu
+維他命C	wei ta ming c
+維他命E	wei ta ming e
+我加你QQ	wo jia ni q q
+QQ輸入法	q q shu ru fa
+我家WiFi	wo jia w i f i
+我有WiFi	wo you w i f i
+你加我QQ	ni jia wo q q
+NBA選秀	n b a xuan xiu
+hold不住	h o l d bu zhu
+不想say	bu xiang s a y
+晚安baby	wan an b a b y
+休閒T恤	xiu xian t xu
+KTV包房	k t v bao fang
+QQ影像	q q ying xiang
+WiFi伴侶	w i f i ban lv
+GPS定位	g p s ding wei
+異維A酸	yi wei a suan
+GPS導航	g p s dao hang
+這麼high	zhe me h i g h
+智能ABC	zhi neng a b c
+ps教程	p s jiao cheng
+PPS影音	p p s ying yin
+T型臺	t xing tai
+WiFi大師	w i f i da shi
+K歌之王	k ge zhi wang
+X射線	x she xian
+X射綫	x she xian
+短袖T恤	duan xiu t xu
+哆啦A夢	duo la a meng
+high起來	h i g h qi lai
+能上QQ	neng shang q q
+高達seed	gao da s e e d
+還上QQ	huan shang q q
+阿Q精神	a q jing shen
+QQ降龍	q q jiang long
+iPhone	i p h o n e
+卡拉OK	ka la o k
+VIP會員	v i p hui yuan
+給你發QQ	gei ni fa q q
+JAVA語言	j a v a yu yan
+EXO王道	e x o wang dao
+DVD導航	d v d dao hang
+漂亮MM	piao liang m m
+七龍珠Z	qi long zhu z
+Android	a n d r o i d
+CorelDraw	c o r e l d r a w
+Beautyleg	b e a u t y l e g
+QQ鬥地主	q q dou di zhu
+DVD光盤	d v d guang pan
+WLAN登錄	w l a n deng lu
+Re管理器	r e guan li qi
+QQ日本版	q q ri ben ban
+Minecraft	m i n e c r a f t
+hi美女好	h i mei nv hao
+QQ瀏覽器	q q zuo lan qi
+長袖T恤	chang xiu t xu
+你登我QQ	ni deng wo q q
+PPTV下載	p p t v xia zai
+沒有WiFi	mei you w i f i
+PSP模擬器	p s p mo ni qi
+MIUI論壇	m i u i lun tan
+BigBang的	b i g b a n g de
+QuickTime	q u i c k t i m e
+QuickType	q u i c k t y p e
+QQ登錄器	q q deng lu qi
+本多RURU	ben duo r u r u
+Starbucks	s t a r b u c k s
+QQ號碼	q q hao ma
+vivo手機	v i v o shou ji
+超級WiFi	chao ji w i f i
+Linsanity	l i n s a n i t y
+OPPO手機	o p p o shou ji
+SATA接口	s a t a jie kou
+Flipboard	f l i p b o a r d
+DOS命令	d o s ming ling
+OPPO樂園	o p p o le yuan
+DNS服務器	d n s fu wu qi
+iMessages	i m e s s a g e s
+english english 100	e n g l i s h  e n g l i s h  10
+IP地址	i p di zhi
+維生素A	wei sheng su a
+維生素B	wei sheng su b
+維生素C	wei sheng su c
+三國Kill	san guo k i l l
+維生素D	wei sheng su d
+Longchamp	l o n g c h a m p
+維生素E	wei sheng su e
+維生素K	wei sheng su k
+WiFi登錄	w i f i deng lu
+U形管	u xing guan
+我用WiFi	wo yong w i f i
+FrontPage	f r o n t p a g e
+武俠Q傳	wu xia q chuan
+純棉T恤	chun mian t xu
+YotaPhone	y o t a p h o n e
+WiFi熱點	w i f i re dian
+世界BOSS	shi jie b o s s
+圓領T恤	yuan ling t xu
+藍光DVD	lan guang d v d
+Smartisan	s m a r t i s a n
+手機WiFi	shou ji w i f i
+Nightwish	n i g h t w i s h
+小米Note	xiao mi n o t e
+Instagram	i n s t a g r a m
+GIF快手	g i f kuai shou
+IE瀏覽器	i e zuo lan qi
+小米WiFi	xiao mi w i f i
+雙核CPU	shuang he c p u
+Panasonic	p a n a s o n i c
+一鍵root	yi jian r o o t
+Ferragamo	f e r r a g a m o
+移動WiFi	yi dong w i f i
+KK唱響	k k chang xiang
+Microsoft	m i c r o s o f t
+Photoshop	p h o t o s h o p
+JJ鬥地主	j j dou di zhu
+唐寧one	tang ning o n e
+Yota手機	y o t a shou ji
+UC瀏覽器	u c zuo lan qi
+Innisfree	i n n i s f r e e
+WiFi殺手	w i f i sha shou
+長款T恤	chang kuan t xu
+Miss解說	m i s s jie shuo
+我上你QQ	wo shang ni q q
+WiFi助手	w i f i zhu shou
+你上我QQ	ni shang wo q q
+隨身WiFi	sui shen w i f i
+QQ網頁版	q q wang ye ban
+SATA硬盤	s a t a ying pan
+你不上QQ	ni bu shang q q
+建外SOHO	jian wai s o h o
+朝外SOHO	chao wai s o h o
+Hello你好	h e l l o ni hao
+我不上QQ	wo bu shang q q
+I服了you	i fu liao y o u
+β粒子	a li zi
+FM收音機	f m shou yin ji
+滬江小D	hu jiang xiao d
+hello在麼	h e l l o zai me
+免費WiFi	mian fei w i f i
+X染色體	x ran se ti
+三K黨	san k dang
+三星NOTE	san xing n o t e
+你QQ多少	ni q q duo shao
+Hello美女	h e l l o mei nv
+Y染色體	y ran se ti
+阿Q正傳	a q zheng chuan
+IP位址	i p wei zhi
+WiFi電話	w i f i dian hua
+大寶SOD蜜	da bao s o d mi
+WiFi在線	w i f i zai xian
+Word文檔	w o r d wen dang
+MM小遊戲	m m xiao you xi
+WiFi連接	w i f i lian jie
+B超檢查	b chao jian cha
+Angelababy	a n g e l a b a b y
+RealPlayer	r e a l p l a y e r
+NBA季後賽	n b a ji hou sai
+QQ個性網	q q ge xing wang
+OPPO官網	o p p o guan wang
+龍珠Q傳	long zhu q chuan
+免CD補丁	mian c d bu ding
+α粒子	a li zi
+JavaScript	j a v a s c r i p t
+Hurstville	h u r s t v i l l e
+少年JUMP	shao nian j u m p
+公交IC卡	gong jiao i c ka
+webQQ登錄	w e b q q deng lu
+水滸Q傳	shui zuo q chuan
+CSOL官網	c s o l guan wang
+GooglePlay	g o o g l e p l a y
+HelloKitty	h e l l o k i t t y
+IMAX電影	i m a x dian ying
+Stylenanda	s t y l e n a n d a
+LinkinPark	l i n k i n p a r k
+QQ會員	q q hui yuan
+IP電話	i p dian hua
+OPPO桌面	o p p o zhuo mian
+MPC播放器	m p c bo fang qi
+CS便攜版	c s bian xie ban
+My盛Lady	m y sheng l a d y
+RunningMan	r u n n i n g m a n
+ET外星人	e t wai xing ren
+NIKE官網	n i k e guan wang
+root權限	r o o t quan xian
+我沒上QQ	wo mei shang q q
+RH陰性血	r h yin xing xue
+PowerPoint	p o w e r p o i n t
+QQ輕聊版	q q qing liao ban
+步步高vivo	bu bu gao v i v o
+Google翻譯	g o o g l e fan yi
+WiFi路由器	w i f i lu you qi
+FLASH動畫	f l a s h dong hua
+SOS兒童村	s o s er tong cun
+γ射線	a she xian
+哆啦A夢	duo la a meng
+申請QQ號	shen qing q q hao
+WiFi共享	w i f i gong xiang
+哆啦A夢的	duo la a meng de
+家的n次方	jia de n ci fang
+我hold不住	wo h o l d bu zhu
+QQ連連看	q q lian lian kan
+QQ電影票	q q dian ying piao
+江南style	jiang nan s t y l e
+Rime	r i m e
+Gmail郵箱	g m a i l you xiang
+看哆啦A夢	kan duo la a meng
+Completedir	c o m p l e t e d i r
+B族維生素	b zu wei sheng su
+V字仇殺隊	v zi chou sha dui
+WiFi管理器	w i f i guan li qi
+Q寵大樂鬥	q chong da le dou
+維生素B族	wei sheng su b zu
+QQ仙俠傳	q q xian xia chuan
+β射線	a she xian
+LED顯示屏	l e d xian shi ping
+阿Q正傳	a q zheng chuan
+QQ透明皮膚	q q tou ming pi fu
+hold不住了	h o l d bu zhu liao
+α射線	a she xian
+登錄QQ部落	deng lu q q bu luo
+iPhone鎖屏	i p h o n e suo ping
+智能ABC	zhi neng a b c
+齊B小短裙	qi b xiao duan qun
+IP地址查詢	i p di zhi cha xun
+量販式KTV	liang fan shi k t v
+Q版泡泡堂	q ban pao pao tang
+NBA常規賽	n b a chang gui sai
+QQ主題助手	q q zhu ti zhu shou
+QQ主題管家	q q zhu ti guan jia
+造夢西遊OL	zao meng xi you o l
+怎麼不上QQ	zen me bu shang q q
+B淋巴細胞	b lin ba xi bao
+T淋巴細胞	t lin ba xi bao
+QQ網頁登錄	q q wang ye deng lu
+維生素C片	wei sheng su c pian
+QQ登錄網頁	q q deng lu wang ye
+SK狀元榜	s k zhuang yuan bang
+網頁QQ登錄	wang ye q q deng lu
+維C銀翹片	wei c yin qiao pian
+申請QQ號碼	shen qing q q hao ma
+QQ空間日誌	q q kong jian ri zhi
+笑傲江湖OL	xiao ao jiang hu o l
+騰訊QQ登錄	teng xun q q deng lu
+QQ同步助手	q q tong bu zhu shou
+WiFi密碼破解	w i f i mi ma po jie
+QQ在線登錄	q q zai xian deng lu
+txt全集下載	t x t quan ji xia zai
+QQ安全中心	q q an quan zhong xin
+QQ情侶頭像	q q qing lv tou xiang
+掌閱iReader	zhang yue i r e a d e r
+QQ對戰平臺	q q dui zhan ping tai
+QQ郵箱登錄	q q you xiang deng lu
+QQ網名大全	q q wang ming da quan
+QQ個性網名	q q ge xing wang ming
+QQ頭像大全	q q tou xiang da quan
+QQ空間登錄	q q kong jian deng lu
+QQ電腦管家	q q dian nao guan jia
+QQ個性簽名	q q ge xing qian ming
+登錄QQ郵箱	deng lu q q you xiang
+登錄QQ空間	deng lu q q kong jian
+CounterStrike	c o u n t e r s t r i k e
+QQ自由幻想	q q zi you huan xiang
+QQ情侶網名	q q qing lv wang ming
+QQ聊天背景	q q liao tian bei jing
+一鍵root大師	yi jian r o o t da shi
+QQ頭像女生	q q tou xiang nv sheng
+搜狗TV輸入法	sou gou t v shu ru fa
+百度一鍵root	bai du yi jian r o o t
+CF穿越火線	c f chuan yue huo xian
+MSN郵箱登錄	m s n you xiang deng lu
+PPS網絡電視	p p s wang luo dian shi
+聯想Thinkpad	lian xiang t h i n k p a d
+ES文件瀏覽器	e s wen jian zuo lan qi
+WiFi萬能鑰匙	w i f i wan neng yue chi
+sina郵箱登錄	s i n a you xiang deng lu
+PPTV網絡電視	p p t v wang luo dian shi
+QQ空間登錄器	q q kong jian deng lu qi
+LINUX操作系統	l i n u x cao zuo xi tong
+ABS防抱死系統	a b s fang bao si xi tong
+Gmail郵箱登錄	g m a i l you xiang deng lu
+Yahoo郵箱登錄	y a h o o you xiang deng lu
+WiFi共享精靈	w i f i gong xiang jing ling
+QQ企業郵箱登錄	q q qi ye you xiang deng lu
+QQ家園電腦登錄	q q jia yuan dian nao deng lu
+QQ郵箱登錄首頁	q q you xiang deng lu shou ye
