@@ -118,15 +118,30 @@ patch:
 # 更多皮肤请参考：https://github.com/rime/squirrel/blob/69112996441fdae1d1778ac9a32eb98f6a8e7841/data/squirrel.yaml    
 # 皮肤效果请参考：https://github.com/liuour/rime-pifu
 
-  app_options:    # App关闭中文输入
+  app_options:    # App关闭中文输入  ascii_mode = true 表示关闭中文 ascii_punct = true 表示在中文状态下输入英文符号
     com.apple.Spotlight:
-        ascii_mode: true      # 聚焦搜索
+      ascii_mode: true      # 聚焦搜索
     com.runningwithcrayons.Alfred:
-        ascii_mode: true      # afred
+      ascii_mode: true      # afred
     com.apple.Terminal:
-        ascii_mode: true      # 终端
+      ascii_mode: true      # 终端
     com.microsoft.VSCode:
-        ascii_mode: false     # Visual Studio Code
+      ascii_mode: false     # Visual Studio Code
+      ascii_punct: true
+    com.jetbrains.WebStorm:
+      ascii_mode: true        # WebStorm
+    com.jetbrains.intellij:
+      ascii_mode: true        # intellij
+      ascii_punct: true
+    com.jetbrains.datagrip:
+      ascii_mode: true        # DataGrip
+      ascii_punct: true
+    com.syntevo.smartgit:
+      ascii_mode: true        # smartgit
+      ascii_punct: true
+    com.sublimetext.3:
+      ascii_mode: true
+      ascii_punct: true
 
 
 
