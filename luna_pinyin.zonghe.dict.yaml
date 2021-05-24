@@ -1,0 +1,38 @@
+# Rime dictionary
+# encoding: utf-8
+# Luna Pinyin - 明月拼音
+
+---
+name: luna_pinyin.zonghe
+version: "2021.02.21"
+sort: by_weight
+use_preset_vocabulary: false
+...
+
+# 常见中英词汇
+iOS	i o s
+ios	i o s
+iOS 14	i o s
+H&M	h m
+Q幣	q bi
+QQ號	q q hao
+QQ號碼	q q haoma
+QQ會員	q q huiyuan
+QQ空間	q q kongjian
+QQ群	q q qun
+QQ郵箱	q q youxiang
+T恤	t xu
+U盤	u pan
+Up主	u p zhu
+
+# 地区
+🇭🇰	h k	10002
+HK	h k	10001
+Hong Kong	h k	10000
+
+# 货币
+￥	ren min bi
+$	mei yuan
+
+#符号
+π	pai
